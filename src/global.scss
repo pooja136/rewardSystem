@@ -9,3 +9,48 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+
+
+.top-image{background: url(assets/purple-bg.png) no-repeat -15px -36px;
+    width: 88%;
+    height: 333px;
+    background-size: 90%;
+    max-width: 332px;
+
+    img{
+        width: 81%;
+        margin: 0 -6px 0px;
+    }
+}
+
+.item-input{
+    margin: 17px auto;
+    width: 90%;
+    display: block;
+.text-box {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+
+    ion-icon{
+        font-size:32px;
+        color: #75248b;
+    }
+}
+}
+
+.list .sign-btn{
+    margin: 17px auto;
+    width: 80%;
+    font-size: 20px;
+    background: #75248b;
+    border-radius: 30px;
+    color: #fff;
+    height: 50px;
+
+   
+}
+
+.button-native{
+    box-shadow: none;
+}
