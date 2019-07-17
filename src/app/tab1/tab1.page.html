@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
+  <!--  <ion-card class="welcome-card">
       <img src="/assets/shapes.svg" alt="" />
       <ion-card-header>
         <ion-card-subtitle>Get Started</ion-card-subtitle>
@@ -37,5 +37,39 @@
         <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
         <ion-label>Theme Your App</ion-label>
       </ion-item>
-    </ion-list>
+    </ion-list>-->
+
+    <div class="login-container">
+      <div class="login-form">
+          <ion-tabs>
+              <!-- Tab bar -->
+              <ion-tab-bar slot="top">
+                <ion-tab-button tab="account">
+                  <ion-text>Sign In</ion-text>
+                </ion-tab-button>
+                <ion-tab-button tab="contact">
+                    <ion-text>Sign Up</ion-text>
+                </ion-tab-button>
+               
+              </ion-tab-bar>
+            </ion-tabs>
+        <div class = "list">
+          <label class = "item item-input">
+             
+              <ion-item>
+                  <ion-label> <ion-icon name="contact"></ion-icon></ion-label>
+                  <ion-input  placeholder="Username"></ion-input>
+                </ion-item>
+          </label>
+       
+          <label class = "item item-input">
+           
+              <ion-item>
+                  <ion-label>   <ion-icon name="lock"></ion-icon></ion-label>
+                  <ion-input  placeholder="Password"></ion-input>
+                </ion-item>
+          </label>
+       </div>
+      </div>
+  </div>
 </ion-content>
