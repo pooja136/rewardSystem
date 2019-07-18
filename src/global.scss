@@ -12,7 +12,7 @@
 
 
 
-.top-image{background: url(assets/purple-bg.png) no-repeat -15px -36px;
+.top-image{background: url(assets/purple-bg2.png) no-repeat -15px -36px;
     width: 88%;
     height: 333px;
     background-size: 90%;
@@ -20,7 +20,7 @@
 
     img{
         width: 81%;
-        margin: 0 -6px 0px;
+        margin: -25px -20px 0px;
     }
 }
 
@@ -43,14 +43,39 @@
     margin: 17px auto;
     width: 80%;
     font-size: 20px;
-    background: #75248b;
+    background: rgba(111,26,132,1);
+    background: -moz-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(111,26,132,1)), color-stop(100%, rgba(236,90,77,1)));
+    background: -webkit-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
+    background: linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f1a84', endColorstr='#ec5a4d', GradientType=1 );
     border-radius: 30px;
     color: #fff;
     height: 50px;
-
-   
 }
 
 .button-native{
     box-shadow: none;
+}
+
+.link-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 23px !important;
+    color: #000;
+    cursor: pointer;
+}
+
+.link-btn.active{color:#9c69aa;}
+.links {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+
+    ion-item{
+        display: inline-block;
+       
+    }
 }
