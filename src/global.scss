@@ -14,35 +14,37 @@
 
 .top-image{background: url(assets/purple-bg2.png) no-repeat -15px -36px;
     width: 88%;
-    height: 333px;
-    background-size: 90%;
-    max-width: 332px;
+    height: 150px;
+    background-size: 70%;
+    max-width: 226px;
 
     img{
-        width: 81%;
-        margin: -25px -20px 0px;
+        width:62%;
+        margin: -25px -16px 0px;
     }
 }
 
+
+
 .item-input{
-    margin: 17px auto;
+    margin: 0px auto 14px;
     width: 90%;
     display: block;
 .text-box {
     border-radius: 30px;
     border: 1px solid #ccc;
-
+    ion-label{margin: 0px 5px 0px;}
     ion-icon{
-        font-size:32px;
+        font-size:25px;
         color: #75248b;
     }
 }
 }
 
 .list .sign-btn{
-    margin: 17px auto;
+    margin: 14px auto 0px;
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     background: rgba(111,26,132,1);
     background: -moz-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(111,26,132,1)), color-stop(100%, rgba(236,90,77,1)));
@@ -63,7 +65,7 @@
 .link-btn {
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 23px !important;
+    font-size: 19px !important;
     color: #000;
     cursor: pointer;
 }
@@ -78,4 +80,10 @@
         display: inline-block;
        
     }
+}
+
+.forgot-password{
+    width:82%; margin: 0px auto; text-align: right; text-decoration: underline;color:#d04b5a; font-size: 17px;
+
+    ion-label{margin-top: 0px;}
 }
