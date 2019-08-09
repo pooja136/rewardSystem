@@ -90,3 +90,66 @@
 
     ion-label{margin-top: 0px;}
 }
+
+
+
+/**/
+.box-wrap {
+    width: 46%;
+    display: inline-block;
+    margin: 2%;
+
+   ion-item{ text-align: center;
+    font-size: 53px;
+    position: relative;
+    border-radius: 10px;
+    min-height: 170px;
+
+   }
+ ion-label {
+    position: relative;
+    text-align: center;
+    --color: #FFE !important;
+
+    i{
+        display: block;
+        text-align: center;
+        font-size: 43px;
+        position: relative;
+        top: 20px;
+       
+    }
+ span{ 
+    font-size: 27px;
+    position: relative;
+  }
+  h5 {
+    font-size: 17px !important;
+}
+}
+}
+.level-define{margin: 20px;}
+.task-info{
+
+        margin: 20px;
+        border: 1px solid #d9a2b5;
+        border-radius: 10px;
+    
+    p{
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+ion-title{
+    color: #bc7993;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+ion-header{
+    margin-bottom: 15px;
+}
+
+ion-tab-button#tab-button-tab1{color:#a465ac;}
