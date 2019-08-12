@@ -1,1 +1,40 @@
 
+.half-box {
+    width: 44%;
+    border: 2px solid #a160ad;
+    border-radius: 5px;
+    margin: 3%;
+    text-decoration: none;
+    display: inline-block;
+
+
+.bottom-text{
+    padding: 7px;
+    border-top: 1px solid #a160ad;
+p{
+    margin: 0px;
+    font-size: 17px;
+}
+}
+
+}
+
+.full-box {
+    width: 94%;
+    border: 2px solid #a160ad;
+    border-radius: 5px;
+    margin: 3%;
+    text-decoration: none;
+    display: inline-block;
+
+    img{width:100%;}
+    .bottom-text{
+        padding: 7px;
+        border-top: 1px solid #a160ad;
+    p{
+        margin: 0px;
+        font-size: 17px;
+    }
+}
+}
+
