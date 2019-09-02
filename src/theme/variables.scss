@@ -4,12 +4,14 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #6e1a84;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
+
+  
 
   /** secondary **/
   --ion-color-secondary: #ea584e;
@@ -84,16 +86,29 @@
   --ion-color-light-tint: #f5f6f9;
 
 
+
+$purple: #75248b;
+
+@mixin lin-gradient($color-one, $color-two, $degrees) {
+  --background: -moz-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* ff3.6+ */
+  --background: -webkit-gradient(linear, left top, right top, color-stop(0%, $color-one), color-stop(100%, $color-two)); /* safari4+,chrome */
+  --background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* safari5.1+,chrome10+ */
+  --background: -o-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* opera 11.10+ */
+  --background: -ms-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* ie10+ */
+  --background: linear-gradient($degrees, $color-one 0%, $color-two 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two',GradientType=1 ); /* ie6-9 */
+}
+   
 }
 
 .box-wrap ion-item{
---background: rgba(239,197,193,1);
---background: -moz-linear-gradient(45deg, rgba(239,197,193,1) 0%, rgba(98, 57, 106, 0.86) 100%);
---background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(239,197,193,1)), color-stop(100%, rgba(98, 57, 106, 0.86)));
---background: -webkit-linear-gradient(45deg, rgba(239,197,193,1) 0%, rgba(98, 57, 106, 0.86) 100%);
---background: -o-linear-gradient(45deg, rgba(239,197,193,1) 0%, rgba(98, 57, 106, 0.86) 100%);
---background: -ms-linear-gradient(45deg, rgba(239,197,193,1) 0%, rgba(98, 57, 106, 0.86) 100%);
-background: linear-gradient(45deg, rgba(239,197,193,1) 0%, rgba(98, 57, 106, 0.86) 100%);
+--background: rgba(110, 26, 132,1);
+--background: -moz-linear-gradient(45deg,rgba(110, 26, 132, 1) 100%,  rgba(181,62,101,0.9) 0%);
+--background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(181,62,101,1)), color-stop(100%, rgba(110, 26, 132, 0.9)));
+--background: -webkit-linear-gradient(45deg, rgba(110, 26, 132, 1) 0%, rgba(181,62,101,0.9)  100%);
+--background: -o-linear-gradient(45deg,  rgba(110, 26, 132,1) 0%,  rgba(181,62,101,0.9) 100%);
+--background: -ms-linear-gradient(45deg, rgba(110, 26, 132, 1) 0%,  rgba(181,62,101,0.9) 100%);
+background: linear-gradient(45deg, rgba(181,62,101,0.9) 0%, rgba(110, 26, 132,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5c1', endColorstr='#d59bb3', GradientType=1 );
 }
 

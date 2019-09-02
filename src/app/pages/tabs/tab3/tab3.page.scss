@@ -1,1 +1,41 @@
+ion-badge{
 
+
+--background:transparent;
+color:#ed5a4d;
+font-size: 17px;
+}
+
+.grd-box{
+    width:100%;
+    display: block;
+    position: relative;
+    height: 150px;
+    --background: rgba(110, 26, 132,1);
+--background: -moz-linear-gradient(45deg,rgba(110, 26, 132, 1) 100%,  rgba(181,62,101,0.9) 0%);
+--background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(181,62,101,1)), color-stop(100%, rgba(110, 26, 132, 0.9)));
+--background: -webkit-linear-gradient(45deg, rgba(110, 26, 132, 1) 0%, rgba(181,62,101,0.9)  100%);
+--background: -o-linear-gradient(45deg,  rgba(110, 26, 132,1) 0%,  rgba(181,62,101,0.9) 100%);
+--background: -ms-linear-gradient(45deg, rgba(110, 26, 132, 1) 0%,  rgba(181,62,101,0.9) 100%);
+background: linear-gradient(45deg, rgba(181,62,101,0.9) 0%, rgba(110, 26, 132,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5c1', endColorstr='#d59bb3', GradientType=1 );
+}
+
+ion-avatar{
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    vertical-align: middle;
+    padding-top: 19px;
+    width: 57px;
+    height: 76px;
+}
+
+.grd-box ion-label{text-align: center;
+    color: #fff;
+    font-size: 21px;
+    display: block;
+    margin: 7px;}
+
+.header-wrap{ margin: 0px; }
+.setting-icon{float: right; margin: 5px 0px; cursor: pointer;}

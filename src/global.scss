@@ -14,14 +14,8 @@
 
 
 .top-image{background: url(assets/purple-bg2.png) no-repeat -15px -36px;
-    width: 88%;
-    height: 150px;
-    background-size: 70%;
-    max-width: 226px;
-    top: -100px;
-    transition-delay: 2s;
-    transition-duration: 6s;
-
+    width: 88%;  height: 150px;  background-size: 70%;  max-width: 226px;  top: -100px;
+    transition-delay: 2s;  transition-duration: 6s;
     img{
         width:62%;
         margin: -25px -16px 0px;
@@ -34,6 +28,7 @@
     margin: 0px auto 14px;
     width: 90%;
     display: block;
+
 .text-box {
     border-radius: 30px;
     border: 1px solid #ccc;
@@ -43,20 +38,14 @@
         color: #75248b;
     }
 }
+
 }
 
 .list .sign-btn{
     margin: 14px auto 0px;
     width: 80%;
     font-size: 18px;
-    background: rgba(111,26,132,1);
-    background: -moz-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(111,26,132,1)), color-stop(100%, rgba(236,90,77,1)));
-    background: -webkit-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
-    background: linear-gradient(45deg, rgba(111,26,132,1) 0%, rgba(236,90,77,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f1a84', endColorstr='#ec5a4d', GradientType=1 );
+ //   @include lin-gradient(#6f1a84,#ec594d,45deg);
     border-radius: 30px;
     color: #fff;
     height: 50px;
@@ -144,7 +133,7 @@
 }
 
 ion-title{
-    color: #bc7993;
+    --color: --ion-color-primary;
     font-size: 25px;
     font-weight: 500;
 }
@@ -153,4 +142,4 @@ ion-header{
     margin-bottom: 15px;
 }
 
-ion-tab-button#tab-button-tab1{color:#a465ac;}
+ion-tab-button#tab-button-tab1{color:--ion-color-primary;}

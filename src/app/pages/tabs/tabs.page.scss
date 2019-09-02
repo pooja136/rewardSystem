@@ -6,14 +6,19 @@
     margin: 3%;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 
-
+  img {
+        max-height: 134px;
+        min-height: 134px;
+        max-width: 100%;
+    }
 .bottom-text{
     padding: 7px;
     border-top: 1px solid #a160ad;
 p{
     margin: 0px;
-    font-size: 17px;
+    font-size: 15px;
 }
 }
 

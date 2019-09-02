@@ -1,9 +1,38 @@
-<ion-header>
+<ion-header class="header-wrap">
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Profile
+      <a href="#">
+      <ion-icon name="settings" class="setting-icon"></ion-icon>
+     </a>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div class="grd-box">
+    <ion-avatar>
+        <img src="../assets/user.png">
+      </ion-avatar>
+      <ion-label>Pooja Shah</ion-label>
+    </div>
+  <ion-list>
+      <ion-item>
+          <ion-label>User ID</ion-label>
+          <ion-badge slot="end">pjshah@gmail.com</ion-badge>
+        </ion-item>
+    <ion-item>
+      <ion-label>Level</ion-label>
+      <ion-badge slot="end">2</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Followers</ion-label>
+      <ion-badge slot="end">22k</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Total Coin Earned</ion-label>
+      <ion-badge slot="end">4.17</ion-badge>
+    </ion-item>
+    </ion-list>
+    
+</ion-content>
